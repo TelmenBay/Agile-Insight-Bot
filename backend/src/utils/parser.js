@@ -1,5 +1,5 @@
 
-export function parseText(watsonResult) {
+export default function parseText(watsonResult) {
   const keywords = watsonResult.keywords?.map(k => k.text) || [];
   const sentiment = watsonResult.sentiment?.document?.label || 'neutral';
 

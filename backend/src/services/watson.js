@@ -1,5 +1,5 @@
-import NaturalLanguageUnderstandingV1 from 'ibm-watson/natural-language-understanding/v1';
-import { IamAuthenticator } from 'ibm-watson/auth';
+import NaturalLanguageUnderstandingV1 from 'ibm-watson/natural-language-understanding/v1.js';
+import { IamAuthenticator } from 'ibm-watson/auth/index.js';
 
 
 const nlu = new NaturalLanguageUnderstandingV1({
