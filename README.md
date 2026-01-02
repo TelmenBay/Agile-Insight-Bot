@@ -1,6 +1,8 @@
 # Agile Insight Bot
 
-AI-powered text analysis tool using IBM Watson NLU to analyze Agile standup notes and surface blockers, risks, and action items.
+Watson NLU-powered text analysis tool to analyze Agile standup notes and surface blockers, risks, and action items.
+
+<img alight="center" width="895" height="940" alt="Screenshot 2026-01-01 at 11 18 35 PM" src="https://github.com/user-attachments/assets/f0339143-f1a0-4640-a4a1-0cedb06bb9b1" />
 
 ## Features
 
