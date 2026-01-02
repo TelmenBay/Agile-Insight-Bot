@@ -20,5 +20,5 @@ export async function analyzeText(text) {
     },
   });
 
-return response.result;
+  return response.result;
 }

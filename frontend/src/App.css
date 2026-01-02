@@ -39,11 +39,11 @@ h1 {
   cursor: pointer;
   border-radius: 6px;
   border: none;
-  background-color: #1976d2;
+  background-color: #3A1DCD;
   color: #fff;
 }
 
 .submitButton:hover {
-  background-color: #155fa0;
+  background-color: #000000;
 }
 
