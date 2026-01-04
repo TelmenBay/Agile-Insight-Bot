@@ -26,6 +26,7 @@ Create `.env` file:
 PORT=3001
 WATSON_API_KEY=your_api_key
 WATSON_URL=your_watson_url
+FRONTEND_URL=http://localhost:3000
 ```
 
 Start server:
@@ -38,12 +39,26 @@ npm start
 ```bash
 cd frontend
 npm install
+```
+
+Create `.env` file (for local development):
+```
+REACT_APP_API_URL=http://localhost:3001
+```
+
+Start development server:
+```bash
 npm start
 ```
 
 Frontend runs on `http://localhost:3000`
 
+## Live Application
+
+- **Frontend**: [https://agile-insight-bot.vercel.app](https://agile-insight-bot.vercel.app)
+- **Backend**: Deployed on IBM Code Engine
+
 ## Tech Stack
 
-**Backend:** Node.js, Express, IBM Watson NLU
-**Frontend:** React
+**Backend:** Node.js, Express, IBM Watson NLU (IBM Code Engine)  
+**Frontend:** React (Vercel)
