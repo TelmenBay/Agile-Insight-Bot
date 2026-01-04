@@ -12,6 +12,16 @@ Watson NLU-powered text analysis tool to analyze Agile standup notes and surface
 - Action item extraction
 - Keyword analysis
 
+## Live Application
+
+- **Frontend**: [https://agile-insight-bot.vercel.app](https://agile-insight-bot.vercel.app)
+- **Backend**: Deployed on IBM Code Engine
+
+## Tech Stack
+
+**Backend:** Node.js, Express, IBM Watson NLU (IBM Code Engine)  
+**Frontend:** React (Vercel)
+
 ## Setup
 
 ### Backend
@@ -52,13 +62,3 @@ npm start
 ```
 
 Frontend runs on `http://localhost:3000`
-
-## Live Application
-
-- **Frontend**: [https://agile-insight-bot.vercel.app](https://agile-insight-bot.vercel.app)
-- **Backend**: Deployed on IBM Code Engine
-
-## Tech Stack
-
-**Backend:** Node.js, Express, IBM Watson NLU (IBM Code Engine)  
-**Frontend:** React (Vercel)
