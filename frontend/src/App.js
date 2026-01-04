@@ -12,7 +12,8 @@ function App() {
     setError(null);
     setResults(null);
 
-    fetch(`${process.env.REACT_APP_API_URL || 'http://localhost:3001'}/api/routes`, {      method: 'POST',
+    fetch(`${process.env.REACT_APP_API_URL || 'http://localhost:3001'}/api/routes`, {      
+      method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
