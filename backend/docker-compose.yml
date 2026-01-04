@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  backend:
+    build: .
+    container_name: agile-insight-backend
+    ports:
+      - "8080:8080"
+    environment:
+      - PORT=8080
+      - WATSON_API_KEY=${WATSON_API_KEY}
+      - WATSON_URL=${WATSON_URL}
+      - FRONTEND_URL=${FRONTEND_URL:-http://localhost:3000}
+    env_file:
+      - .env
+    restart: unless-stopped
+
