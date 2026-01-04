@@ -22,7 +22,7 @@ Watson NLU-powered text analysis tool to analyze Agile standup notes and surface
 **Backend:** Node.js, Express, IBM Watson NLU (IBM Code Engine)  
 **Frontend:** React (Vercel)
 
-## Setup
+## Local Setup
 
 ### Backend
 
